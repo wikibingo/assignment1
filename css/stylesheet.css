@@ -8,6 +8,7 @@ body{
     height:100vh;
     position:relative;
     letter-spacing: 0.1em;
+    
 }
 
 h2 {
@@ -122,3 +123,19 @@ footer > h2{
     margin:4px;
 }
 
+@media screen and (max-width: 600px){
+    body{
+        overflow: hidden;
+    }
+    main
+        {
+        grid-column: 1 / 3;
+          }
+    footer{
+        width:100%;
+    }
+    aside{
+        grid-column: 1 / 3;
+        grid-row: 1;
+    }
+}
