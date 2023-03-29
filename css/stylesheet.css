@@ -8,6 +8,7 @@ body{
     height:100vh;
     position:relative;
     letter-spacing: 0.1em;
+    margin:0;
 }
 
 h2 {
