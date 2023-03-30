@@ -1,3 +1,7 @@
+//5. declare notesArray
+const notesArray = [  {title: "note one", body: "this is my first note"},  {title: "note two", body: "this is my second note"}];
+
+
 //1. get all elements need to be change color ->querySelector
 button_dark = document.querySelector('.dark_theme.general_button')
 mainBGcolor = document.querySelector('main')
