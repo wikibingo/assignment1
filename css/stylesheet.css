@@ -140,3 +140,24 @@ footer > h2{
         grid-row: 1;
     }
 }
+/* Assignment2----------------------------------------*/
+.aside_toggle_background_color{
+    background-color: #071E50;
+}
+
+.main_toggle_background_color{
+    background-color: #280604;
+}
+
+.body_text_toggle_color{
+    color:#f7a072;    
+}
+
+.text_placeholder_background_color{
+    background-color: #280604;
+    border:3px solid #E2EBD8;
+}
+
+.nav_link{
+    color: #f7a072;
+}
