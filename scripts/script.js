@@ -30,6 +30,7 @@ function toggle_color(){
         link.classList.toggle('nav_link');
     })
 }
+
 button_dark.addEventListener('click',toggle_color)
 
 //3.hide element
@@ -39,6 +40,7 @@ function elementHide(){
     button_cancel.setAttribute('style','visibility:hidden');
     button_save.setAttribute('style','visibility:hidden');
 }
+
 button_cancel.addEventListener('click',elementHide)
 
 //4.display element adnd clear textcontent
@@ -59,6 +61,7 @@ function elementDisplay(){
     }
     counter++ ;
 }
+
 button_new_note.addEventListener('click',elementDisplay)
 
 //6.save notes
@@ -77,12 +80,6 @@ button_save.addEventListener('click', saveNotes)
 
 //7.search note list and fetch note content
 function contentSearch(event){
-//     let clickedItem = event.target.textContent;
-//     let noteContent = notesArray.find(note => note.title === clickedItem);
-//     if (noteContent) {
-//         textPlaceholder.value = noteContent.body;
-//     }
-// }
     if (event.target.tagName === 'LI') {
         const clickedItem = event.target.textContent;
         const noteContent = notesArray.find(note => note.title === clickedItem);
